@@ -1,20 +1,46 @@
 .tophead {
     border: 5px solid black;
     padding: 10px;
+    width: 900px;
 }
 
 .bild-top {
     border: 5px solid black;
     margin-left: 10px;
-    
-    margin-right: 70vw;
-    width: auto;
+    margin-right: 150px;
+    width: 259px;
+    height: 194px;
 }
+
+.linktable {
+    
+    margin-top: 166px;
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+}
+th, td {
+    border: 3px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: crimson;
+  }
+
+  a:link, a:visited {
+      color: black;
+      text-decoration: none;
+      
+  }
+  a:hover {
+      background-color: black;
+      color: white;
+  }
+
 #middle {
     border: 5px solid black;
     padding: 10px;
     border-top: none;
-    width: auto;
+    width: 900px;
     
 
 }
@@ -40,8 +66,7 @@
 .rubrik {
     border: 5px solid black;
     padding: 10px;
-    width: 200px;
-    
+    width: 170px;
     margin-left: 20px;
     height: 50px;
       
@@ -51,7 +76,25 @@
     border: 5px solid black;
     padding: 10px;
     margin-top: 10px;
-    
     margin-left: 20px;
-    width: auto;
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.knapp {
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    color: white;
+    
+}
+
+.knapp:hover {
+    background-color: red;
+    color: white;
 }
